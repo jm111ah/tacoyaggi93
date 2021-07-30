@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Login Process";
+}
+
+<style>
+    .title {
+        font-size: 70px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .li2 {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    img {
+        width: 1000px;
+        height: 500px;
+        box-shadow: 0px 0px 20px -5px;
+    }
+
+    .good {
+        text-decoration: underline;
+    }
+
+    .Project {
+        box-shadow: 0px 0px 20px -5px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+
+    .Project_img {
+        width: 300px;
+    }
+
+    .Project_p {
+        color: darkgrey;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-offset-4">
+        <img src="~/images/Login_Process1.png" />
+        <p>Login Page 입니다. 상단에 User Model을 선언하였습니다.</p>
+        <p>input 부분은 TagHelper를 사용하여 User Model의 Email , Pass 객체를 매칭 시켰습니다.</p>
+        <br />
+
+        <img src="~/images/Login_Process2.png" />
+        <p>User Model 부분입니다. Pass 객체에는 최소입력 5글자 적용 및 필수값이 적용되어 있고, Email 객체에는 필수값만 적용되어 있습니다.</p>
+        <p>User Model에 유효성 검사가 적용 되어 있습니다.</p>
+        <br />
+
+        <img src="~/images/Login_Process3.png" />
+        <p>Login Page에서 Login Button을 누르고, 유효성 검사가 실행된 모습입니다.</p>
+        <p>User Model에 선언한 유효성 검사에 부합하지 않기 때문에, Submit을 해도 Data가 Controller에 전달되지 않습니다. </p>
+        <br />
+
+        <img src="~/images/Login_Process4.png" />
+        <p>Login Controller 부분입니다. Client가 Submit을 누르면 Data는 이곳으로 오게 됩니다.</p>
+        <p>[HttpPost] : post 방식으로 넘어온 Data를 처리한다.</p>
+        <p>[ValidateAntiForgeryToken] : Token을 발급하여 위조를 방지한다.</p>
+        <p>ModelState.IsValid : 유효성 검사에 실패하면, false 값이 들어간다. </p>
+        <br />
+
+
+
+    </div>
+
+</div>

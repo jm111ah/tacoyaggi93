@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Crown MySelf";
+}
+
+<style>
+    .title {
+        font-size: 70px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .li2 {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        box-shadow: 0px 0px 20px -5px;
+    }
+
+    .good {
+        text-decoration: underline;
+    }
+
+    .Project {
+        box-shadow: 0px 0px 20px -5px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+
+    .Project_img {
+        width: 300px;
+    }
+
+    .Project_p {
+        color: darkgrey;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-offset-4">
+        <h1 class="title">Welcome</h1>
+        <p>편리하고 멋진 프로그램을 만들고 싶은 개발자 정성균 입니다.</p>
+        <p>저는 개발자 Tacoyaggi93 으로 활동하고 있습니다.</p>
+        <p>프로그램 개발을 즐기며, 여러 개발 경험을 하고 싶습니다.</p>
+        <p>좋은 인연이 되어, 함께 할 수 있는 기회가 되었으면 좋겠습니다.</p>
+        <p>방문해주셔서 감사합니다.</p>
+        <br />
+
+        <h1 class="title">Profile</h1>
+        <ul class="btn btn-default">
+            <li class="li2">정성균[남자]</li>
+            <li class="li2">1993년생</li>
+            <li class="li2">백석대학교 E-Business 학사</li>
+        </ul>
+        <br /><br />
+
+        <h1 class="title">Abount Me</h1>
+        <p>많이 부족하지만 이론과 실습을 계속 병행하며, 꾸준히 실력을 쌓고 있습니다.</p>
+        <p>개발 철학은 "그냥 넘어가지 말자" 입니다.</p>
+        <p>궁금한 것이 나오면 꼭 해결을 하고 넘어갔습니다.</p>
+        <p class="good">아래 리스트는 제가 개발 가능한 언어와 환경을 나타냈습니다.</p>
+        <img src="~/images/a.png" />
+        <img src="~/images/c.png" />
+        @*<img src="~/images/d.png" />*@
+        <img src="~/images/f.png" />
+        @*<img src="~/images/g.png" />*@
+        <img src="~/images/html css.png" />
+        @*<img src="~/images/test.png" />*@
+        <img src="~/images/images.jpg" />
+        <img src="~/images/net5.jpg" />
+        <br /><br />
+
+        <h1 class="title">Project</h1>
+        <p>프로젝트를 전부 혼자서 만들었다는 것이 특징입니다.</p>
+        <p>또한 기능 구현에만 몰두 하는 것이 아닌,</p>
+        <p>프로젝트를 하면서 필요한 내용을 "공부" 하여 "원리" 를 습득 하는것에 집중 하였습니다.</p>
+        <p class="good">이미지를 눌러보시면 더 상세한 정보를 볼 수 있습니다.</p>
+        <div class="Project">
+            <a asp-controller="Home" asp-action="Login_Process"><img src="~/images/Login_Process.jpg" class="Project_img" /></a>
+            <p class="Project_p">Login Process</p>
+        </div>
+    </div>
+
+</div>
