@@ -568,3 +568,4 @@ MigrationBackup/
 /Crown/.vs/Crown/DesignTimeBuild/*.v2
 /Crown/.vs/Crown/DesignTimeBuild/.dtbcache.v2
 /Crown/.vs/Crown/config/*.config
+/Webform/bin/*.dll
