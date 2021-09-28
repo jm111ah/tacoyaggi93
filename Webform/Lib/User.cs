@@ -54,22 +54,7 @@ namespace Webform2.Lib
 
         public void Signup(string email, string name, string gender, string password)
         {
-            sql = "insert into [User](Email,Password,Name,Gender) values('" + email + "','" + password + "','" + name + "','" + gender + "')";
-            try
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand(sql, con);
-                SqlDataReader rdr = cmd.ExecuteReader();
-                rdr.Read();
-            }
-            catch (Exception ex)
-            {
-                error = ex.ToString();
-            }
-            finally
-            {
-                con.Close();
-            }
+       
         }
     }
 }
