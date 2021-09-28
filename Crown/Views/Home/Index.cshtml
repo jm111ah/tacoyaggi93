@@ -3,35 +3,58 @@
 }
 
 
-<h1>자유게시판</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#"><img class="d-block w-100" src="~/images/CRUD2.png" alt="First slide" style="height:300px; width:100%;"></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img class="d-block w-100" src="~/images/CRUD2.png" alt="First slide" style="height:300px; width:100%;"></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img class="d-block w-100" src="~/images/CRUD2.png" alt="First slide" style="height:300px; width:100%;"></a>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
 <table class="table">
     <thead>
-        @*<tr>
+        <tr>
             <th scope="col">#</th>
-            <th scope="col">제목</th>
-            <th scope="col">좋아요</th>
-            <th scope="col">댓글</th>
-        </tr>*@
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td style="width:80%;"><a asp-controller="" asp-action="">제목</a></td>
-            <td style="width:10%;"><a asp-controller="" asp-action="">좋아요</a></td>
-            <td style="width:10%;"><a asp-controller="" asp-action="">댓글</a></td>
+            <td>Mark</td>
+            <td>Otto</td>
         </tr>
-    </tbody>
-</table>
-<br />
-
-<h1>질문&답변</h1>
-<table class="table">
-    <tbody>
         <tr>
-            <th scope="row">1</th>
-            <td style="width:80%;"><a asp-controller="" asp-action="">제목</a></td>
-            <td style="width:10%;"><a asp-controller="" asp-action="">좋아요</a></td>
-            <td style="width:10%;"><a asp-controller="" asp-action="">댓글</a></td>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
         </tr>
     </tbody>
 </table>

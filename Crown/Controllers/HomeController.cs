@@ -23,17 +23,21 @@ namespace Crown.Controllers
             return View();
         }
 
-
-
         public IActionResult MySelf()
         {
             return View();
         }
 
-        public IActionResult Login_Process()
+        public IActionResult Community()
         {
             return View();
         }
+
+        public IActionResult QA()
+        {
+            return View();
+        }
+
 
     }
 }
