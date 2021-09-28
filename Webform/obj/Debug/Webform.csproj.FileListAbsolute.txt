@@ -225,3 +225,7 @@ C:\git\Webform\obj\Debug\Webform.csproj.CoreCompileInputs.cache
 C:\git\Webform\obj\Debug\Webform.csproj.CopyComplete
 C:\git\Webform\obj\Debug\Webform2.dll
 C:\git\Webform\obj\Debug\Webform2.pdb
+D:\taco\git\tacoyaggi93\Webform\obj\Debug\Webform.csproj.AssemblyReference.cache
+D:\taco\git\tacoyaggi93\Webform\obj\Debug\Webform.csproj.CoreCompileInputs.cache
+D:\taco\git\tacoyaggi93\Webform\obj\Debug\Webform2.dll
+D:\taco\git\tacoyaggi93\Webform\obj\Debug\Webform2.pdb
