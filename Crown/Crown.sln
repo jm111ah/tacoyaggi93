@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crown", "Crown.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webform", "..\Webform\Webform.csproj", "{B2941D0A-E2CF-4290-A654-AD9FF68E4A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iinterface", "..\Csharp\Iinterface.csproj", "{BEECC5D0-7660-4547-B16F-69DC404E8C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iinterface", "..\Csharp\Iinterface.csproj", "{BEECC5D0-7660-4547-B16F-69DC404E8C55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Charp", "Charp", "{56FEB315-88A1-4367-B9E2-AD3BF5ABDE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "..\Enum\Enum.csproj", "{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,17 @@ Global
 		{BEECC5D0-7660-4547-B16F-69DC404E8C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEECC5D0-7660-4547-B16F-69DC404E8C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEECC5D0-7660-4547-B16F-69DC404E8C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BEECC5D0-7660-4547-B16F-69DC404E8C55} = {56FEB315-88A1-4367-B9E2-AD3BF5ABDE4E}
+		{02FF7E07-4525-4C35-ACE2-DE779C9B0A7A} = {56FEB315-88A1-4367-B9E2-AD3BF5ABDE4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C19C57C-921E-45AC-BCEC-84478A6BE120}
