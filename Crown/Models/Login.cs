@@ -9,9 +9,8 @@ namespace Crown.Models
 {
     public class Login
     {
-        public string ID { get; set; }
-
         [Required(ErrorMessage = "Email을 입력해 주세요.")]
+        [RegularExpression(@"^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", ErrorMessage = "이메일 형식이 올바르지 않습니다.")]
         public string Email { get; set; }
 
         [MinLength(5,ErrorMessage = "비밀번호를 5글자 이상 입력해주세요.")]
