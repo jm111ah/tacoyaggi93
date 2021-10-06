@@ -452,4 +452,10 @@ D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Crown.pdb
 D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Crown.genruntimeconfig.cache
 D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Crown.csproj.AssemblyReference.cache
 D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp.cshtml.g.cs
-D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\_Layout.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp2.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp3.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp4.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp5.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp6.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp7.cshtml.g.cs
+D:\taco\git\tacoyaggi93\Crown\obj\Debug\net5.0\Razor\Views\Program\Charp_Layout.cshtml.g.cs
