@@ -9,5 +9,7 @@ namespace Crown.ViewModels
     public  class Viewmodel_Login
     {
         public DataSet Viewmodel_ds { get; set; }
+
+        public string ErrorMessage { get; set; }
     }
 }

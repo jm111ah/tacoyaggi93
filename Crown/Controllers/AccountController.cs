@@ -26,10 +26,13 @@ namespace Crown.Controllers
         {
             if (ModelState.IsValid)
             {
-                 dbc.Select("");
-               var test = vm.Viewmodel_ds;
+                 dbc.Select(String.Format("select * from member where Id = '{0}' and Name = '{1}' ", Info.Email, Info.Pass));
+                if (vm.Viewmodel_ds != null)
+                {
+                    return RedirectToAction("Home/Index");
+                }
             }
-            return View(Info);
+            return View(vm.ErrorMessage);
         }
 
         public IActionResult SignUp()
@@ -41,7 +44,15 @@ namespace Crown.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult SignUp(SignUp Info)
         {
-            return View();
+            dbc.Insert(String.Format("insert into Member(Email,Name,Pass) values('{0}','{1}','{2}')" , Info.Email , Info.Name , Info.Password));
+            if (string.IsNullOrEmpty(vm.ErrorMessage))
+            {
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                return View(vm.ErrorMessage);
+            }
         }
     }
 }

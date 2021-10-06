@@ -13,18 +13,15 @@ namespace Crown.Lib
 {
     public class DBConnection : Viewmodel_Login
     {
-        //private string connectionst = "Server=(localdb)\\MSSQLLocalDB;Database=test;Trusted_Connection=True;MultipleActiveResultSets=true";
-        string connectionst = "Data Source=(local);Initial Catalog=pubs;Integrated Security=SSPI;";
-
-
+        string connectionst = "Data Source=127.0.0.1;Initial Catalog=test;Integrated Security=SSPI;";
 
         public void Select(string query)
         {
             using (SqlConnection con = new SqlConnection(connectionst))
             {
+                con.Open();
                 try
                 {
-                    con.Open();
                     SqlCommand cmd = new SqlCommand(query, con);
                     DataSet ds = new DataSet();
                     SqlDataAdapter sda = new SqlDataAdapter(cmd);
@@ -33,12 +30,29 @@ namespace Crown.Lib
                 }
                 catch (Exception ex)
                 {
-
+                    ErrorMessage = ex.Message;
                 }
-
             }
-
         }
+
+        public void Insert(string query)
+        {
+            using (SqlConnection con = new SqlConnection(connectionst))
+            {
+                con.Open();
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    cmd.ExecuteReader();
+                }
+                catch (Exception ex)
+                {
+                    ErrorMessage = ex.Message;
+                }
+            }
+        }
+
+
 
     }
 }
