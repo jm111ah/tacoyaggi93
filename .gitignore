@@ -3,4 +3,5 @@
 /App.Triptopaz.B2C/bin
 /App.Triptopaz.B2C/obj
 /.vs
-/Crown/.vs
+/App.Triptopaz.B2C/Properties/PublishProfiles
+/App.Triptopaz.B2C/.config/dotnet-tools.json
