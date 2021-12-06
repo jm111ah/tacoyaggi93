@@ -5,3 +5,11 @@
 /.vs
 /Properties/PublishProfiles
 /.config/dotnet-tools.json
+/Crown/obj
+/Crown/bin
+/Class/obj
+/Class/bin
+/Csharp/bin
+/Csharp/obj
+/Enum/obj
+/Enum/bin
