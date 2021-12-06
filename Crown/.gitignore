@@ -1,0 +1,7 @@
+/v16/*.suo
+/DesignTimeBuild/*.v2
+/bin
+/obj
+/.vs
+/Properties/PublishProfiles
+/.config/dotnet-tools.json
