@@ -1,7 +1,7 @@
-/.vs/Sln.Triptopaz.B2C/v16/*.suo
-/.vs/Sln.Triptopaz.B2C/DesignTimeBuild/*.v2
-/App.Triptopaz.B2C/bin
-/App.Triptopaz.B2C/obj
+/v16/*.suo
+/DesignTimeBuild/*.v2
+/bin
+/obj
 /.vs
-/App.Triptopaz.B2C/Properties/PublishProfiles
-/App.Triptopaz.B2C/.config/dotnet-tools.json
+/Properties/PublishProfiles
+/.config/dotnet-tools.json
