@@ -1,5 +1,4 @@
 ﻿
-    
 
 @await Html.PartialAsync("_HeaderPartial")
 
@@ -68,33 +67,20 @@
     }
 </style>
 
-    <!-- 사이드바 -->
-    <div id="page-wrapper">
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                </li>
-                <li><a asp-controller="Charp" asp-action="Charp">C# 이란?</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp2">C# 기본자료형</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp3">C# 변수</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp4">C# 연산자</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp5">C# 조건문</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp6">C# 반복문</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp7">C# 클래스</a></li>
-                <li><a href="#">메뉴 8</a></li>
-                <li><a href="#">메뉴 9</a></li>
-            </ul>
-        </div>
+<!-- 사이드바 -->
+<div id="page-wrapper">
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">C#</a>
+            </li>
+            <li><a asp-controller="EIP" asp-action="SDLC">SDLC (생명주기)</a></li>
+        </ul>
     </div>
-    <!-- /사이드바 -->
+</div>
+<!-- /사이드바 -->
 
 
-        @RenderBody()
+@RenderBody()
 
 @await Html.PartialAsync("_FooterPartial")
-
-
-
-
-
-
