@@ -17,5 +17,15 @@ namespace Crown.Controllers
         {
             return View();
         }
+
+        /*
+        Date Created : 2021-12-09
+        Writer : tacoyaggi93
+        Content : Object Oriented Programming Info
+         */
+        public IActionResult OOP()
+        {
+            return View();
+        }
     }
 }
