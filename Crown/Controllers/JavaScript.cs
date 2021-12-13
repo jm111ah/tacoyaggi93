@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Crown.Controllers
 {
-    public class CharpController : Controller
+    public class JavaScript : Controller
     {
-        public IActionResult Charp()
+        public IActionResult JS()
         {
             return View();
         }

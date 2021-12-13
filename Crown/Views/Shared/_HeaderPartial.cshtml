@@ -10,21 +10,19 @@
             <a class="navbar-brand" asp-controller="Home" asp-action="Index">C#</a>
         </div>
     </div>
-    @*홈 버튼 끝*@
+    @*홈 버튼 끝*@    
     @*BootStrap DropDown 시작*@
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그래밍 언어</button>
         <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" asp-controller="Charp" asp-action="Charp">C#</a>
-            <a class="dropdown-item" asp-controller="" asp-action="Core">Core/.Net5</a>
-            <a class="dropdown-item" asp-controller="" asp-action="Script">JavaScript</a>
-            <a class="dropdown-item" asp-controller="" asp-action="Jquery">Jquery</a>
+            <a class="dropdown-item" asp-controller="JavaScript" asp-action="JS">JavaScript</a>
         </div>
     </div>
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program Info</button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" asp-controller="" asp-action="OOP">OOP</a>
+            <a class="dropdown-item" asp-controller="Programming" asp-action="OOP">OOP</a>
         </div>
     </div>
     <div class="dropdown">
