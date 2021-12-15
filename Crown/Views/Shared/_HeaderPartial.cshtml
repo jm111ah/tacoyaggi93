@@ -1,7 +1,17 @@
 ﻿<meta name="viewport" content="width=device-width" />
 <title>@ViewBag.Title</title>
-@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />*@
+
+@*Jquery CDN Start*@
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+@*Jquery CDN End*@
+
+@*BootStrap CDN Start*@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+@*BootStrap CDN End*@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     @*홈 버튼 시작*@
@@ -10,13 +20,13 @@
             <a class="navbar-brand" asp-controller="Home" asp-action="Index">C#</a>
         </div>
     </div>
-    @*홈 버튼 끝*@    
+    @*홈 버튼 끝*@
     @*BootStrap DropDown 시작*@
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그래밍 언어</button>
         <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" asp-controller="Charp" asp-action="Charp">C#</a>
-            <a class="dropdown-item" asp-controller="JavaScript" asp-action="JS">JavaScript</a>
+            <a class="dropdown-item" asp-controller="JavaScript" asp-action="JqueryDataTable">JavaScript</a>
         </div>
     </div>
     <div class="dropdown">

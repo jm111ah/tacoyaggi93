@@ -12,5 +12,10 @@ namespace Crown.Controllers
         {
             return View();
         }
+
+        public IActionResult JqueryDataTable()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "JavaScript_Layout";
+}
+
+
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" />
+
+
+
+<div class="row text-center" style="width:100%">
+    <div style="width:50%; float:none; margin:0 auto">
+        <br />
+        <h4>  Jquery DataTable </h4>
+        <br />
+        <p>Jquery 라이브러리의 일종으로, HTML에서 테이블을 생성하는데 편리한 Library 입니다. </p>
+        <p>테이블을 생성해주는 Library 이지만 다양한 기능들이 존재 합니다. </p>
+        <p>주요 기능은 만들어진 테이블을 Excel , PDF 파일로 변환하고 인쇄 까지 가능 합니다.</p>
+        <p>가장 큰 장점은 검색, 정렬, 페이징 처리까지 자동으로 제공 합니다.</p>
+
+        <table id="JqueryDataTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Country</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Korea</td>
+                    <td>Jung</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Japan</td>
+                    <td>Lee</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>China</td>
+                    <td>Whang</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rusia</td>
+                    <td>Kim</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<p>정적이지 않은 Table 이라고 생각하면 될 것 같습니다.</p>
+<p>Script 자체가 HTML을 동적으로 사용하기 위해 쓰는 언어인데</p>
+<p>Jquery DataTable은 동적인 Table 을 제공합니다.</p>
+
+
+<script>
+    $(document).ready(function () {
+        alert(1);
+    });
+
+
+    jQuery(function ($) {
+        $("#JqueryDataTable").DataTable({
+            // // 표시 건수기능 숨기기
+            lengthChange: false,
+            // // 검색 기능 숨기기
+            // searching: false,
+            // // 정렬 기능 숨기기
+            // ordering: false,
+            // // 정보 표시 숨기기
+            // info: false,
+            // // 페이징 기능 숨기기
+            paging: false
+        });
+    });
+</script>
+
