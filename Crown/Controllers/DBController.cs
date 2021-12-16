@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace Crown.Controllers
 {
-    public class CharpController : Controller
+    public class DBController : Controller
     {
-        public IActionResult Charp()
-        {
-            return View();
-        }
-
-        public IActionResult NLog()
+        public IActionResult Trigger()
         {
             return View();
         }

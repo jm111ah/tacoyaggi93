@@ -23,7 +23,7 @@
     @*홈 버튼 끝*@
     @*BootStrap DropDown 시작*@
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그래밍 언어</button>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program Languaged</button>
         <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" asp-controller="Charp" asp-action="Charp">C#</a>
             <a class="dropdown-item" asp-controller="JavaScript" asp-action="JqueryDataTable">JavaScript</a>
@@ -42,23 +42,29 @@
         </div>
     </div>
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comunity</button>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Base</button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" asp-controller="Home" asp-action="Community">자유게시판</a>
-            <a class="dropdown-item" asp-controller="Home" asp-action="QA">질문/답변</a>
+            <a class="dropdown-item" asp-controller="DB" asp-action="Trigger">Trigger</a>
         </div>
     </div>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">기타 Tool</button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" asp-controller="Home" asp-action="MySelf">Jenkins</a>
-        </div>
-    </div>
-    <div class="conteainer-fulid" style="position:absolute; right:0;">
-        <div class="navbar-header">
-            <a class="btn btn-info" asp-controller="Account" asp-action="Login">로그인</a>
-            <a class="btn btn-info" asp-controller="Account" asp-action="SignUp">회원가입</a>
-        </div>
-    </div>
+    @*<div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comunity</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Home" asp-action="Community">자유게시판</a>
+                <a class="dropdown-item" asp-controller="Home" asp-action="QA">질문/답변</a>
+            </div>
+        </div>*@
+    @*<div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">기타 Tool</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Home" asp-action="MySelf">Jenkins</a>
+            </div>
+        </div>*@
+    @*<div class="conteainer-fulid" style="position:absolute; right:0;">
+            <div class="navbar-header">
+                <a class="btn btn-info" asp-controller="Account" asp-action="Login">로그인</a>
+                <a class="btn btn-info" asp-controller="Account" asp-action="SignUp">회원가입</a>
+            </div>
+        </div>*@
     @*BooStrap DropDown 끝*@
 </nav>

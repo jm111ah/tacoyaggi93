@@ -1,7 +1,5 @@
 ﻿@await Html.PartialAsync("_HeaderPartial")
 
-<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" />
 
 <style>
     /* 사이드바 래퍼 스타일 */
@@ -73,10 +71,9 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a href="#">JavaScript</a>
+                <a href="#">DB</a>
             </li>
-            <li><a asp-controller="JavaScript" asp-action="JqueryDataTable">Jquery DataTable</a></li>
-            <li><a asp-controller="JavaScript" asp-action="Json">Json</a></li>
+            <li><a asp-controller="DB" asp-action="Trigger">Trigger</a></li>
         </ul>
     </div>
 </div>
@@ -84,4 +81,4 @@
 
 @RenderBody()
 
-@await Html.PartialAsync("_FooterPartial");
+@await Html.PartialAsync("_FooterPartial")

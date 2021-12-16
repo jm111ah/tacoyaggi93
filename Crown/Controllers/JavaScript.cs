@@ -17,5 +17,10 @@ namespace Crown.Controllers
         {
             return View();
         }
+
+        public IActionResult Json()
+        {
+            return View();
+        }
     }
 }
