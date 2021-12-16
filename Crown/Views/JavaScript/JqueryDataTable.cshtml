@@ -17,7 +17,9 @@
         <p>테이블을 생성해주는 Library 이지만 다양한 기능들이 존재 합니다. </p>
         <p>주요 기능은 만들어진 테이블을 Excel , PDF 파일로 변환하고 인쇄 까지 가능 합니다.</p>
         <p>가장 큰 장점은 검색, 정렬, 페이징 처리까지 자동으로 제공 합니다.</p>
-
+        <p>아래 테이블은 Jquery DataTable 을 적용한 테이블 입니다.</p>
+        <br />
+        <br />
         <table id="JqueryDataTable">
             <thead>
                 <tr>
@@ -54,17 +56,37 @@
                 </tr>
             </tbody>
         </table>
+        <br />
+        <br />
+        <p>정적이지 않은 Table 이라고 생각하면 될 것 같습니다.</p>
+        <p>Script 자체가 HTML을 동적으로 사용하기 위해 쓰는 언어인데</p>
+        <p>Jquery DataTable은 동적인 Table 을 제공합니다.</p>
+        <br />
+        <br />
+        <img src="~/images/Jquery_DataTable.png" />
+        <br />
+        <br />
+        <p>Jquery DataTable 을 사용하기 위해서는, JS , Css 연결시켜 줘야한다.</p>
+        <p>나는 CDN 이 편하므로 위와 같이 사용했다.</p>
+        <br />
+        <br />
+        <img src="~/images/Jquery_DataTable2.png" />
+        <br />
+        <br />
+        <p>Jquery DataTable Code 이다.</p>
+        <p>해당 테이블의 Id 값을 선택자로 잡아주고 .DataTable() 메소드만 호출하면 된다.</p>
+        <p>Jquery Table 에는 Property 가 존재하는데, Default Value 는 true 이다.</p>
+        <p>해당 Property 가 궁금하다면 아래 링크에서 확인 가능하다.</p>
+        <p><a href="https://datatables.net/">Jquery DataTable Info</a></p>
     </div>
 </div>
 
-<p>정적이지 않은 Table 이라고 생각하면 될 것 같습니다.</p>
-<p>Script 자체가 HTML을 동적으로 사용하기 위해 쓰는 언어인데</p>
-<p>Jquery DataTable은 동적인 Table 을 제공합니다.</p>
 
 
-<script>
+
+<script type="text/javascript">
     $(document).ready(function () {
-        alert(1);
+        
     });
 
 
