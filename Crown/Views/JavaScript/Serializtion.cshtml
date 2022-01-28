@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "JavaScript_Layout";
+}
+
+<div class="row text-center" style="width:100%">
+    <div style="width:50%; float:none; margin:0 auto">
+        <br />
+        <h4>  Json Serializtion </h4>
+        <br />
+        <p>Json을 전송하기 위해서는 Serializtion 와 Deserializtion 2가지를 알아야 한다.</p>
+        <p>Serializtion은 우리말로 직렬화, Deserializtion은 역직렬화 이다.</p>
+        <p>직렬화란 말그대로 Data(객체)들을 일자로 직렬화 시키는 거다.</p>
+        <p>예를 들어서 기차가 있다. 기차의 각 칸을 객체라 하자.</p>
+        <p>각 칸은 한줄로 직렬화 되어 있고 그로인해서 빠르게 이동할 수 있다.</p>
+        <p>좀 더 상상력을 더해서 각 칸의 용도가 있다고 생각해보자.</p>
+        <p>1칸은 식당객체, 2칸은 화장실객체 등등...</p>
+        <p>열차가 목적지에 도착했고 우리는 각 칸들을 이제 용도에 맞게 분리해야 한다.</p>
+        <p>원래 기능으로 되돌리는 것이다. 이를 역직렬화라고 한다.</p>
+        <img src="~/images/Serializtion.png" />
+        <p>object 형태를 직렬화 시키고 다시 object 형태로 원복하는 개념이다.</p>
+        <p>어떻게 보면 boxing 과 unboxing 개념과 비슷한거 같기도?</p>
+        <p>어떻게 사용하고 있는지 알아보자.</p>
+        <img src="~/images/Serialize.png" />
+        <p>문법은 간단하다. 선택자를 지정해주고 serialize() 객체를 사용하면 된다.</p>
+        <img src="~/images/Serialize2.png" />
+        <p>직렬화된 모습이다. 마치 앞전에 예를 들었던 기차를 보는 듯하다.</p>
+        <p>CustomerId 1칸 , Password 2칸 이 존재한다.</p>
+    </div>
+</div>

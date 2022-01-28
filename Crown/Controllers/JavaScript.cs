@@ -22,5 +22,10 @@ namespace Crown.Controllers
         {
             return View();
         }
+
+        public IActionResult Serializtion()
+        {
+            return View();
+        }
     }
 }
