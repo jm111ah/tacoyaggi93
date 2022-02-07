@@ -22,5 +22,15 @@ namespace Crown.Controllers
         {
             return View();
         }
+
+        public IActionResult Event()
+        {
+            return View();
+        }
+
+        public IActionResult Component()
+        {
+            return View();
+        }
     }
 }
